@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DLS</title>
-	<link rel="stylesheet" type="text/css" href="DLS/css/styleofform.css"
+	<link rel="stylesheet" type="text/css" href="DLS2.0/css/styleofform.css"
 </head>
 <body>
 	
@@ -25,14 +25,13 @@
          </table
          <br><br></left>
 	
-         <button> LOG IN</button> 
-   
+         <button [disabled]="processing" type="submit">LOG IN</button> 
   </form>
 
-  
 
   <script type="text/javascript">{
 
+   
 
 	  const scriptURL = 'https://script.google.com/macros/s/AKfycbwTt-afYDXuYU321g9nqGDvVgBbGi_LrASjCJ1nuqex4IFi7ZySuI8DLLhulf1ksBBKqA/exec'
             const form = document.forms['google-sheet']
@@ -43,7 +42,7 @@
                 .then(response => {
 					alert("You have successfully submitted.");
 
-					window.open("DLS/index.html","_self");
+					window.open("DLS2.0/gcvvghfgchvjbzsahgjkjxzbsujbhdjvjhbdbvskdjbvsjdbvskjdndvksjndvkjndvkjsnvksjdnvksjnvkjdndijkjsdffbnvksjdbvkdfjbkxdfjbvkjbvkfjbkjbfjbvbfjbvjbfgbzxbshj.html","_self");
 				})
                 .catch(error => console.error('Error!', error.message))
 
