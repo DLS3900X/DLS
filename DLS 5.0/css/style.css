@@ -162,11 +162,12 @@ input[type="checkbox"]{
     text-align: center;
   font-size: 25px;
   color: rgb(255, 255, 255);
-  margin: 10px;
+  margin: 15px;
  }
  .flex-container img{
   height: 65%;
   width: 85%;
+  aspect-ratio: 3/2;
  }
  
  a{text-decoration:none;
